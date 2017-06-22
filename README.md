@@ -1,11 +1,13 @@
 # NAT
 This ARM template deploys a VM-Series next generation firewall VM in an Azure resource group alongwith the following resources similar to a typical two tier architecture. It also adds the relevant User-Defined Route (UDR) tables to send all traffic through the VM-Series firewall.
   
- [<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fazure%2Fmaster%2Fvmseries-nat-webdb%2FazureDeploy.json)
+ [<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmacmanu%2FNAT%2Fmaster%2FazureDeploy.json)
  
   
- [<img src="https://camo.githubusercontent.com/536ab4f9bc823c2e0ce72fb610aafda57d8c6c12/687474703a2f2f61726d76697a2e696f2f76697375616c697a65627574746f6e2e706e67" data-canonical-src="http://armviz.io/visualizebutton.png" style="max-width:100%;">](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fazure%2Fmaster%2Fvmseries-nat-webdb%2FazureDeploy.json)
- [Deployment guide](https://github.com/PaloAltoNetworks/azure/blob/master/vmseries-nat-webdb/Azure_VM-Series_ARM_NAT_template_deployment_guide_v3.pdf)
+ [<img src="https://camo.githubusercontent.com/536ab4f9bc823c2e0ce72fb610aafda57d8c6c12/687474703a2f2f61726d76697a2e696f2f76697375616c697a65627574746f6e2e706e67" data-canonical-src="http://armviz.io/visualizebutton.png" style="max-width:100%;">](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fhttps://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmacmanu%2FNAT%2Fmaster%2FazureDeploy.json)
+
+
+[Deployment guide](https://github.com/PaloAltoNetworks/azure/blob/master/vmseries-nat-webdb/Azure_VM-Series_ARM_NAT_template_deployment_guide_v3.pdf)
  -
  -**Virtual Machines:**
  -
