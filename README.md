@@ -14,7 +14,7 @@ This ARM template deploys a VM-Series next generation firewall VM in an Azure re
  -- Web VM - an Ubuntu VM (A1) that can be setup as a web server
  -- DB VM - an Ubuntu VM (A1) that can be setup with a database
  -
- -<b>NOTE</b>: The NAT VM is no longer required as Azure supports [assigning a public IP](https://azure.microsoft.com/en-us/updates/ga-multiple-ips-per-nic) to any NIC of VM-Series. After deployment you can delete it and assign a public IP to the eth1(Untrust) interface of VM-Series.
+ -
  -
  -**Virtual Network (VNET):**
  -
