@@ -1,14 +1,11 @@
 # NAT
 This ARM template deploys a VM-Series next generation firewall VM in an Azure resource group alongwith the following resources similar to a typical two tier architecture. It also adds the relevant User-Defined Route (UDR) tables to send all traffic through the VM-Series firewall.
   
- -[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fazure%2Fmaster%2Fvmseries-nat-webdb%2FazureDeploy.json)
- +# Replaced aka Not needed
+ [<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fazure%2Fmaster%2Fvmseries-nat-webdb%2FazureDeploy.json)
+ 
   
- -[<img src="https://camo.githubusercontent.com/536ab4f9bc823c2e0ce72fb610aafda57d8c6c12/687474703a2f2f61726d76697a2e696f2f76697375616c697a65627574746f6e2e706e67" data-canonical-src="http://armviz.io/visualizebutton.png" style="max-width:100%;">](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fazure%2Fmaster%2Fvmseries-nat-webdb%2FazureDeploy.json)
- +This template is not needed anymore since Azure supports multiple public IP's since February 2017. This feature in Azure allows you to assign 1/more public IP's to any NIC of a multi-NIC VM like VM-Series. For simple, pilot or PoC, scenarios you can use the [Two-tier Sample template](https://github.com/PaloAltoNetworks/azure/tree/master/two-tier-sample). And, for other use cases that need a scale out architecture, use the [Application Gateway Template(https://github.com/PaloAltoNetworks/azure-applicationgateway). 
-  
- -
- -[Deployment guide](https://github.com/PaloAltoNetworks/azure/blob/master/vmseries-nat-webdb/Azure_VM-Series_ARM_NAT_template_deployment_guide_v3.pdf)
+ [<img src="https://camo.githubusercontent.com/536ab4f9bc823c2e0ce72fb610aafda57d8c6c12/687474703a2f2f61726d76697a2e696f2f76697375616c697a65627574746f6e2e706e67" data-canonical-src="http://armviz.io/visualizebutton.png" style="max-width:100%;">](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FPaloAltoNetworks%2Fazure%2Fmaster%2Fvmseries-nat-webdb%2FazureDeploy.json)
+ [Deployment guide](https://github.com/PaloAltoNetworks/azure/blob/master/vmseries-nat-webdb/Azure_VM-Series_ARM_NAT_template_deployment_guide_v3.pdf)
  -
  -**Virtual Machines:**
  -
